@@ -27,7 +27,7 @@ public class HelloApplication extends Application {
 //        greeting.setTextFill(Color.GREEN);
 //        greeting.setFont(Font.font("Times New Roman", FontWeight.BOLD, 70));
 //        root.getChildren().add(greeting);
-        Scene scene = new Scene(fxmlLoader.load(), 700, 275);
+        Scene scene = new Scene(fxmlLoader.load(), 800, 500);
         stage.setTitle("Hello JavaFX!");
         stage.setScene(scene);
         stage.show();
