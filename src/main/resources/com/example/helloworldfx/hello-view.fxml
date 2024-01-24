@@ -130,6 +130,7 @@
     <Button fx:id="byeButton" GridPane.rowIndex="5" GridPane.columnIndex="1" text="Say Bye" onAction="#onButtonClick"/>
     <CheckBox fx:id="ourCheckBox" text="Clear the field after saying hello or bye" GridPane.rowIndex="6" GridPane.columnIndex="0"
               GridPane.columnSpan="2" onAction="#handleChange"/>
+    <Label fx:id="ourLabel" text="Nothing has happened" GridPane.rowIndex="7" GridPane.columnIndex="0"/>
 </GridPane>
 
         <!--<StackPane fx:controller="com.example.helloworldfx.HelloController"-->
