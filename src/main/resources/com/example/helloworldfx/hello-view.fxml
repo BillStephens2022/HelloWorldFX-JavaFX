@@ -80,15 +80,15 @@
     <ComboBox GridPane.rowIndex="1" GridPane.columnIndex="2" GridPane.columnSpan="2">
         <items>
             <FXCollections fx:factory="observableArrayList">
-                <String fx:value="Option 1" />
-                <String fx:value="Option 2" />
-                <String fx:value="Option 3" />
-                <String fx:value="Option 4" />
-                <String fx:value="Option 5" />
+                <String fx:value="Option 1"/>
+                <String fx:value="Option 2"/>
+                <String fx:value="Option 3"/>
+                <String fx:value="Option 4"/>
+                <String fx:value="Option 5"/>
             </FXCollections>
         </items>
         <value>
-            <String fx:value="This is Option 4" />
+            <String fx:value="This is Option 4"/>
         </value>
     </ComboBox>
     <ChoiceBox GridPane.rowIndex="1" GridPane.columnIndex="4">
@@ -109,7 +109,7 @@
     <ColorPicker GridPane.rowIndex="3" GridPane.columnIndex="0"/>
     <DatePicker GridPane.rowIndex="3" GridPane.columnIndex="1"/>
     <Accordion GridPane.rowIndex="3" GridPane.columnIndex="2"
-               GridPane.columnSpan="2"  expandedPane="$tp3">
+               GridPane.columnSpan="2" expandedPane="$tp3">
 
         <panes>
             <TitledPane text="Titled Pane 1">
@@ -125,9 +125,11 @@
 
     </Accordion>
     <TextField fx:id="nameField" GridPane.rowIndex="4" GridPane.columnIndex="0" onKeyReleased="#handleKeyReleased"/>
-    <Button fx:id="helloButton" GridPane.rowIndex="5" GridPane.columnIndex="0" text="Say Hello" onAction="#onButtonClick" />
-    <Button fx:id="byeButton" GridPane.rowIndex="5" GridPane.columnIndex="1" text="Say Bye" onAction="#onButtonClick" />
-
+    <Button fx:id="helloButton" GridPane.rowIndex="5" GridPane.columnIndex="0" text="Say Hello"
+            onAction="#onButtonClick"/>
+    <Button fx:id="byeButton" GridPane.rowIndex="5" GridPane.columnIndex="1" text="Say Bye" onAction="#onButtonClick"/>
+    <CheckBox fx:id="ourCheckBox" text="Clear the field after saying hello or bye" GridPane.rowIndex="6" GridPane.columnIndex="0"
+              GridPane.columnSpan="2" onAction="#handleChange"/>
 </GridPane>
 
         <!--<StackPane fx:controller="com.example.helloworldfx.HelloController"-->
